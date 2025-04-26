@@ -22,6 +22,12 @@ Log files are automatically created in the same directory.
 Format: scan_results_YYYY-MM-DD_HH-MM-SS.log
 
 # Usage
-Run the Scanner: python scanner.py --hosts<ip> --start <port> --end<port>
+Run the Scanner: python scanner.py --hosts(ip) --start (port>) --end(port)
 (if multiple hosts than the list of IP should be comma-seperated.)
+
+# Example
+python scanner.py --hosts 127.0.0.1 --start 1 --end 20
+      or
+python scanner.py --hosts 127.0.0.1,192.168.192.1 --start 1 --end 20
+
 
